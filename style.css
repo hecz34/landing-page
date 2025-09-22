@@ -2,6 +2,8 @@ body {
   font-family: 'Roboto';
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 header {
   background-color: #1F2937;
@@ -67,4 +69,33 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.random-info {
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  font-size: 28px;
+  color: #1F2937;
+  font-weight: 800;
+  text-align: center;
+}
+.blocks-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.info-block {
+  width: 120px;
+}
+.block {
+  border: #3882F6 3px solid;
+  border-radius: 10px;
+  height: 120px;
+  margin-bottom: 7px;
+}
+.info-block-text {
+  text-align: center;
+  font-size: 13px;
+  color: #8c8c8c;
 }
