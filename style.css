@@ -73,6 +73,7 @@ p {
 .random-info {
   display: flex;
   flex-direction: column;
+  margin-bottom: 70px;
 }
 h3 {
   font-size: 28px;
@@ -98,4 +99,30 @@ h3 {
   text-align: center;
   font-size: 13px;
   color: #8c8c8c;
+}
+.quote-container {
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 75px 0;
+}
+.quote {
+  color: #1F2937;
+  /* font-size: 23px; */
+  font-size: 28px;
+  font-weight: 300;
+  font-style: italic;
+  /* width: 520px; */
+  width: 610px;
+  margin: 0;
+}
+.quote-author {
+  width: 610px;
+  text-align: end;
+  color: #1F2937;
+  font-size: 17px;
+  font-weight: 600;
+  padding-right: 60px;
+  margin: 0;
 }
